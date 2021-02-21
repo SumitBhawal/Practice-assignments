@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Problem 1,2,3</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 6px;
+            text-align: center;
+        }
+
+        .col-container {
+            display: table;
+            padding: 16px;
+            border-collapse: separate;
+            border-spacing: 10px;
+        }
+
+        .col {
+            display: table-cell;
+            padding: 10px;
+        }
+
+        .marks {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="font-size: 30px;">Problem 1:</h1>
+    <h1 style="font-size: 25px;"> Build three tables with information given in question using only HTML tags.</h1>
+    <h1 style="font-size: 20px;">Employee Information</h1>
+
+    <table>
+        <tr>
+            <th>Employee</th>
+            <th>Position</th>
+            <th>Country</th>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td>Alfred Sampson</td>
+            <td>Architect</td>
+            <td>Mexico</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td>Joe Handel</td>
+            <td>Designer</td>
+            <td>Turkey</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td>Ernst Young</td>
+            <td>Developer</td>
+            <td>Austria</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td>Helen Bennet</td>
+            <td>teacher</td>
+            <td>UK</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td>Yoshi Hamada</td>
+            <td>Manager</td>
+            <td>Japan</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td>Giovanni Rovelli</td>
+            <td>Chef</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+
+    <table style="width: 200px;">
+        <h1 style="font-size: 20px;">Student Scores</h1>
+
+        <tr>
+            <th>Student</th>
+            <th>Subject Scores</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Raj</td>
+            <td>Algebra</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Geometry</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td colspan="2">Total of all Subject</td>
+            <td>40</td>
+        </tr>
+    </table>
+
+    <table style="height: 120px;  width: 300px;">
+        <h1 style="font-size: 20px; width: 100px;">Hobbies</h1>
+        <tr>
+            <td>Indoor</td>
+            <td>Chess</td>
+        </tr>
+        <tr>
+            <td>Outdoor</td>
+            <td>Cricket</td>
+        </tr>
+    </table>
+
+    <table>
+        <h1 style="font-size: 30px;">Problem 2:</h1>
+        <h1 style="font-size: 25px;">Build various elements given in questioin using tables and other HTML tags without
+            using CSS. </h1>
+        <h1 style="font-size: 20px;">An Ordered list</h1>
+        <tr>
+            <th>Ordered Lists - Type 1</th>
+            <th>Ordered Lists - Type 2</th>
+            <th>Ordered Lists - Type 3</th>
+            <th>Ordered Lists - Type 4</th>
+            <th>Ordered Lists - Type 5</th>
+            <th>Ordered Lists - Different start</th>
+        </tr>
+        <tr>
+            <td>
+                <ol type="1">
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+            <td>
+                <ol type="I">
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+            <td>
+                <ol type="i">
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+            <td>
+                <ol type="A">
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+            <td>
+                <ol type="a">
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+            <td>
+                <ol type="i" start="4">
+                    <li>Apple</li>
+                    <li>Mangoes</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ol>
+            </td>
+        </tr>
+
+    </table>
+
+    <h1 style="font-size: 20px;">A Description Lists</h1>
+
+    <dl>
+        <dt><b>HTML</b></dt>
+        <dd>This stands for Hyper Text Markup Language</dd>
+        <dt><b>CSS</b></dt>
+        <dd>This stands for Cascading Style heets</dd>
+    </dl>
+    <table>
+        <h1 style="font-size: 20px;">An Unordered Lists</h1>
+        <tr>
+            <th>Unordered Lists - Type 1</th>
+            <th>Unordered Lists - Type 2</th>
+            <th>Unordered Lists - Type 3</th>
+        </tr>
+        <tr>
+            <td>
+                <ul style="list-style-type: unset;">
+                    <li>Spinach</li>
+                    <li>Tomato</li>
+                    <li>Potato</li>
+                    <li>Ginger</li>
+                </ul>
+            </td>
+
+            <td>
+                <ul style="list-style-type: square;">
+                    <li>Spinach</li>
+                    <li>Tomato</li>
+                    <li>Potato</li>
+                    <li>Ginger</li>
+                </ul>
+            </td>
+            <td>
+                <ul style="list-style-type: circle;">
+                    <li>Beetroot</li>
+                    <li>Potato</li>
+                    <li>Ginger</li>
+                    <li>Radish</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <h1 style="font-size: 20px;">Media Element</h1>
+        <tr>
+            <th>Image</th>
+            <th>Progressbar</th>
+        </tr>
+        <tr>
+            <td><img src="https://i.ytimg.com/vi/EoQpdCaqBPw/maxresdefault.jpg" alt="Save Earth" height="60px"
+                    width="100px"></td>
+            <td>
+                <label for=""></label>
+                <progress id="file" value="30" max="100"> 30%</progress>
+            </td>
+        </tr>
+    </table>
+    <h1 style="font-size: 30px;">Problem 3:</h1>
+    <h1 style="font-size: 25px;">Build a product listing page given in question.</h1>
+    <br><br>
+    <h2 style="text-align: center;">Product page</h2>
+    <div class="col-container">
+        <div class="col">
+            <p>T-Shirt</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/314dChqOKiL.jpg" height="450px" width="400px">
+        </div>
+        <div class="col">
+            <h1>White Cotton T-Shirt</h1>
+            <p>T-shirt</p>
+            <span class="fa fa-star marks"></span>
+            <span class="fa fa-star marks"></span>
+            <span class="fa fa-star marks"></span>
+            <span class="fa fa-star marks"></span>
+            <span class="fa fa-star-half-full"></span>
+            <h2>Rs. 400 </h2>
+            <h3>Product details</h3>
+            <p>Qality T-Shirt for men and Women Best in class quality <br>Keep Coding | Half Sleeve T-Shirt | Programmer
+                Tshirts <br>Coding Design T-shirt |Round Neck T Shirt <br>100% Cotton T-Shirt | Quote T-Shirt White</p>
+            <h2>Color: White</h2>
+            <h2>Available: 3 in stock</h2>
+            <form action="/action_page.php">
+                <label for="size"><b style="font-size: 16px;">Select size:</b></label>
+                <select id="small" name="small">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select><br><br>
+                <p style="font-size: 16px;"><b> Quantity:</b> <input type="number" value="1"></p>
+                <p><button style="background-color: blue; color: white;">Buynow</button> &nbsp; <button>Add to
+                        Cart</button></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
